@@ -23,11 +23,11 @@ p{
 }
 
 h2{
-  font-size: 42px;
+  font-size: 48px;
 }
 
 h3{
-  font-size: 38px;
+  font-size: 34px;
 }
 
 h4{
@@ -562,4 +562,12 @@ ul{
 
 .name{
   padding-top: 55px;
+}
+
+.about p {
+  font-size: 24px;
+}
+
+.projectsList p {
+  font-size: 24px; 
 }
