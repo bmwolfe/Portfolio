@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   padding-top: 50px;
-  width: 100%; /* Ensure full width of the page */
+  width: 100%;
 }
 
 p, h4 {
@@ -90,7 +90,7 @@ img {
   border: none;
   border-radius: 5px;
   box-shadow: 1px 1px 2px #dbe3db;
-  width: 120%;
+  width: 200%;
   height: 30px;
   transition: 0.75s;
 }
@@ -99,11 +99,11 @@ img {
 
 @media (max-width: 600px) {
   .header-button {
-      font-size: 14px; /* Smaller buttons on small screens */
+      font-size: 14px; 
   }
   .photo-outline {
-      width: 80%; /* Adjust width for smaller screens */
-      margin: auto; /* Center image on smaller screens */
+      width: 80%; 
+      margin: auto; 
   }
 }
 
@@ -390,27 +390,24 @@ ul{
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: rgba(0, 150, 255, 0.8); /* Light blue color */
-  border-radius: 50%; /* Makes the element circular */
-  pointer-events: none; /* Prevents it from blocking any interactions */
-  transform: translate(-50%, -50%); /* Centers the element on the cursor */
+  background-color: rgba(0, 150, 255, 0.8); 
+  border-radius: 50%;
+  pointer-events: none; 
+  transform: translate(-50%, -50%);
   transition: transform 0.1s ease-out, opacity 0.1s ease-out;
-  z-index: 1000; /* Ensures it's on top of other elements */
+  z-index: 1000; 
 }
 
 
 
 
-/* General styling for smaller screens */
 @media (max-width: 768px) {
-  /* Adjust the size of the header */
   nav {
     flex-direction: column;
     align-items: center;
     height: auto;
   }
 
-  /* Stack the header buttons vertically on small screens */
   .right-section {
     margin-top: 5px;
     flex-direction: row;
@@ -429,16 +426,14 @@ ul{
     margin-bottom: 6px;
   }
 
-  /* Adjust text and button sizes */
   .name {
     font-size: 26px;
     padding-top: 20px;
   }
 
-  /* Adjust container layout */
   .info-on-me {
     font-size: 20px;
-    flex-direction: column; /* Stack the photo and text */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
   }
@@ -454,16 +449,14 @@ ul{
   }
 
   .photo-outline {
-    margin: 20px 0; /* Add margin to create space between text and image */
-    width: 40%; /* Shrink image container on smaller screens */
+    margin: 20px 0; 
+    width: 40%; 
   }
 
-  /* Ensure the image doesn't overflow */
   .me {
-    width: 100px; /* Adjust image size */
+    width: 100px;
   }
 
-  /* About section responsiveness */
   .container {
     flex-direction: column;
     align-items: center;
@@ -475,14 +468,12 @@ ul{
     max-width: 80%;
   }
 
-  /* Project container responsiveness */
   .projectContainerOdd, .projectContainerEven {
     margin-left: 0;
     margin-right: 0;
     width: 90%;
   }
 
-  /* Footer responsiveness */
   .footer ul {
     flex-direction: column;
     padding: 50px;
@@ -525,16 +516,16 @@ ul{
   font-size: 16px
 }
 
-/* Maintain current structure on larger screens */
+
 @media (min-width: 769px) {
-  /* Ensuring everything stays in place on larger screens */
+  
   .info-on-me {
-    flex-direction: row; /* Keep elements in a row */
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .right-section {
-    flex-direction: row; /* Buttons aligned in a row */
+    flex-direction: row; 
   }
 
 }
