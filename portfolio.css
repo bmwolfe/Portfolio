@@ -245,7 +245,7 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
-  padding-top: 15px;
+  padding-top: 25px;
   margin-right: 2%;
 }
 
@@ -544,7 +544,7 @@ ul{
 }
 
 .devPostInfo{
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 .resumeInfo{
