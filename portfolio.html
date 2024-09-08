@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Brendon Wolfe's Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="portfolio.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <link rel="" href="header.html"> <!-- TODO: link the header here from the new file-->
+
+    <nav> <!-- * This is my header section -->
+      <div class="left-section">
+        <p class="email"><u>wolfebrendon@gmail.com</u></p>
+        <p class="phone">(810) 734-1262</p>
+      </div>
+      <div class="right-section">
+        <a class="" href="portfolio.html">
+          <button class="header-button">Home</button>
+        </a>
+        <a class="" href="about-me.html">
+          <button class="header-button">About</button>
+        </a>
+        <a class="projects-link" href="devPosts.html">
+          <button class="header-button">Dev Posts</button>
+        </a>
+      </div>
+    </nav>
+
+    <h2 class="name"><b>Brendon M. Wolfe</b></h2>
+
+    <div class="info-on-me">
+      <div class="mouse-follower"></div>
+      <div>
+        <h3 class="info-text">
+          <br>Hello!
+          <br>My name is Brendon.
+          <div class="buttons-with-icons">
+            <a href="https://github.com/bmwolfe" target="_blank">
+              <button class="github-button">
+                <img class="github-button-image" src="images/github_logo.png" alt="GitHub">
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/brendonwolfe21/" target="_blank">
+              <button class="linkedIn-button">
+                <!-- ! <img class="linkedIn-button-logo" src="">-->
+                in
+              </button>
+            </a>
+          </div>
+        </h3>
+      </div>
+      <div class="photo-outline">
+        <img class="me" src="images/Subject.png">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about">
+        <h4>Objective:</h4>
+        <p>I am a first generation Computer Science major seeking an internship or job within the field.
+          I have interests in many aspects of the field including: Web Development, App Development, 
+          Game Development, AI Development and Cybersecurity
+        </p>
+      </div>
+      <img class="school" src="images/oakland-photo.jpeg">
+    </div>
+
+
+    <div class="projectsListDiv">
+      <div class="projectsList">
+        <h4>Projects:</h4>
+        <p>- Online Resume<br>
+          - Virtual Body Health App (In Progress) <br><br>
+        </p>
+      </div>
+    </div>
+
+    <ul class="js-projectsList"></ul>
+
+
+    <h4 class="resumeInfo">The footer contains my resume for download.</h4>
+
+    <footer class="footer">
+     <div class="footerTop">
+      <ul>
+        <!-- * This lets visitors email me directly * -->
+        <li class="contact-info">
+          <p class="contactInfo">Contact: <a href="mailto:wolfebrendon@gmail.com" class="contactInfo emailLink">wolfebrendon@gmail.com</a></p>
+        </li>
+        <li>
+          <p class="contactInfo">Phone: (810) 734-1262</p>
+        </li>
+        <!-- * This lets visitors download my resume * -->
+        <li class="resume-button">
+          <p><a href="files/Resume2024.docx" class="" download>Download Resume</a></p>
+        </li>
+        <!-- * This lets visitors return to the top of the page * -->
+        <li class="back-to-top">
+          <p><a href="#top">Back to Top</a></p>
+        </li>
+      </ul>
+     </div>
+     <div class="footerBottom">
+        <p class="copyright">&copy; 2024 <script>new Date().getFullYear()>2024&&document.write("-"+new Date().getFullYear());</script> Brendon M. Wolfe. All Rights Reserved</p>
+      </div>
+    </footer>
+    
+    <script type="module" src="scripts/videoList.js"></script>
+    <script type="module" src="scripts/effects.js"></script>
+    
+  </body>
+</html>
