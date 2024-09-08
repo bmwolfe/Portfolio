@@ -188,7 +188,7 @@ img {
 }
 
 .me {
-  width: 250px;
+  width: 200px;
   border-radius: 60px;
 }
 
@@ -196,12 +196,12 @@ img {
   border-radius: 2px;
   border-style: solid;
   border-color: #ea9083;
-  width: 100%;
+  width: 120%;
   max-width: 1000px;
 }
 
 .algonac {
-  height: 80%;
+  height: 50%;
   border: 2px solid #ea9083;
   border-radius: 2px;
 }
