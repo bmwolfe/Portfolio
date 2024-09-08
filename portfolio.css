@@ -363,6 +363,10 @@ ul{
   color: white;
 }
 
+.footer{
+  bottom: 0;
+}
+
 .footer ul{
   display: flex;
   justify-content: center;
